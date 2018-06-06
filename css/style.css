@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Song+Myung');
+body{
+    font-family: 'Song Myung', serif;
+    font-size: 16px;
+    color:#fff;
+}
+.header_section {
+    background-image: url(../images/bennar.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    position: relative;
+}
+.overlay{
+   background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.mrgntop{
+    margin-top: 30px;
+}
+.counter{
+   
+    margin-top: 440px;
+    
+}
+.counter .font{
+    font-size: 25px;
+    display: block;
+    /* margin:  0 auto; */
+    text-align:  center;
+}
+.counter .numbr{
+    display:  block;
+    /* margin: 0 auto; */
+    text-align: center;
+}
+.counter h3{
+    font-size:  25px;
+    text-align:  center;
+    color: rgba(253, 168, 9, 0.99);
+}
